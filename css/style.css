@@ -1,0 +1,54 @@
+/* Sidebar */
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+    padding: 5px;
+  }
+  
+  aside#sidebar .contact input, aside#sidebar .contact textarea{
+    width: 90%;
+    padding: 5px;
+  }
+  
+  article#main-col{
+    float: left;
+    width: 65%;
+  }
+
+  @media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar {
+      float: none;
+      text-align: center;
+      width: 100%;
+    }
+    
+  }
+
+  /* Services */
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #32a0c2;
+  }
+  
+  ul#services h3{
+    border-bottom: #353637 solid 1px;
+  }
+
+  #newsletter form input[type="email"],
+  .contact input,
+  .contact textarea,
+  .contact label{
+    width: 100%;
+    margin-bottom: 5px;
+  }
